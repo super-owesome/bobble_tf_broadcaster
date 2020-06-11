@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>bobble_tf_broadcaster</name>
+  <version>1.0.0</version>
+  <description>Broadcasts bobble bot frames</description>
+  <maintainer email="james.holley@so.engineering">James Holley</maintainer>
+  <license>tbd</license>
+  <url type="website">tbd</url>
+  <author email="james.holley@so.engineering">James Holley</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+
+</package>

@@ -1,0 +1,4 @@
+<launch>
+    <node name="bobble_tf_broadcaster" pkg="robot_state_publisher" type="state_publisher">
+    </node>
+</launch>
